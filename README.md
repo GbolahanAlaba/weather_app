@@ -27,7 +27,7 @@ Create a basic weather API using Python that interacts with a SQL database to st
 - Use any HTTP server or API framework of your choice (Flask, aiohttp, FastAPI, LiteStar, or Django REST framework).
 - Use SQLite for the database.
 
-# **Django Rest Framework App
+# **Django Rest Framework App**
 
 ## **Overview**
 
