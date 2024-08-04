@@ -30,7 +30,9 @@ It's recommended to use a virtual environment to manage dependencies:
 
 ## **Activate Virtual Environment**
 
-source `venv/bin/activate`  # On Windows use `venv\Scripts\activate`
+MAC `source venv/bin/activate`
+
+Windows `venv\Scripts\activate`
 
 ## **Install Dependencies**
 
