@@ -56,3 +56,8 @@ Start the development server to verify everything is set up correctly:
 `python manage.py runserver`
 You should now be able to access the application at http://127.0.0.1:8000/.
 
+## **API Endpoints**
+
+- `POST /weather`: Add new weather data.
+- `GET /weather/{city}`: Retrieve weather data for a specific city.
+
