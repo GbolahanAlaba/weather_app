@@ -82,12 +82,12 @@ You should now be able to access the application at http://127.0.0.1:8000/.
 
 - Response:
 
-`{
+```{
   "city": "CityName",
   "date": "YYYY-MM-DD",
   "temperature": 23.5,
   "description": "Clear sky"
-}`
+}```
 
 - 200 OK with weather data on success.
 - 404 Not Found if no data is available for the city.
