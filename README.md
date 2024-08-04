@@ -63,7 +63,7 @@ You should now be able to access the application at http://127.0.0.1:8000/.
 
 ## **API Implementation**
 
-**`POST /weather`**
+`**POST /weather**`
 
 - Request Body:
 
