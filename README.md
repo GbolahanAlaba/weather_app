@@ -38,6 +38,8 @@ Install the required dependencies using pip:
 ## **Run Migrations**
 
 Apply the migrations to set up your database schema:
+
+`python manage.py makemigrations`
 `python manage.py migrate`
 
 
