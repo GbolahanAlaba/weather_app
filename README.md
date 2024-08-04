@@ -63,31 +63,34 @@ You should now be able to access the application at http://127.0.0.1:8000/.
 
 ## **API Implementation**
 
-`**POST /weather**`
+### POST /weather
 
-- Request Body:
+- **Request Body**:
 
-`{
-  "city": "CityName",
-  "date": "YYYY-MM-DD",
-  "temperature": 23.5,
-  "description": "Clear sky"
-}`
+  ```json
+  {
+      "city": "CityName",
+      "date": "YYYY-MM-DD",
+      "temperature": 23.5,
+      "description": "Clear sky"
+  }
 
 - Response:
 - 201 Created on success.
 - 400 Bad Request on validation error.
 
-**`GET /weather/{city}`**
+### GET /weather/{city}
 
-- Response:
+- **Response**:
 
-```{
-  "city": "CityName",
-  "date": "YYYY-MM-DD",
-  "temperature": 23.5,
-  "description": "Clear sky"
-}```
+  ```json
+  {
+      "city": "CityName",
+      "date": "YYYY-MM-DD",
+      "temperature": 23.5,
+      "description": "Clear sky"
+  }
+
 
 - 200 OK with weather data on success.
 - 404 Not Found if no data is available for the city.
