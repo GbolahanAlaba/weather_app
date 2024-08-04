@@ -1,9 +1,9 @@
 
-# **Django Rest Framework App**
+# **Simple Weather API**
 
 ## **Overview**
 
-This project is a Django-based application utilizing Django Rest Framework (DRF) to provide a robust API for various functionalities. This README file will guide you through the setup process.
+This project is a Django-based application utilizing Django Rest Framework (DRF) to create a basic weather API that interacts with a SQL database to store and retrieve weather data. The API allows users to add new weather data and retrieve weather data for a specific city.
 
 ## **Prerequisites**
 
