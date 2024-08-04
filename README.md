@@ -27,22 +27,21 @@ bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install Dependencies
+
+## **Install Dependencies**
 
 Install the required dependencies using pip:
 
-bash
-Copy code
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
-Run Migrations
+## **Run Migrations**
 
 Apply the migrations to set up your database schema:
 `python manage.py migrate`
 
 
-Run the Development Server
+## **Run the Development Server**
 Start the development server to verify everything is set up correctly:
 
 `python manage.py runserver`
