@@ -63,7 +63,7 @@ You should now be able to access the application at http://127.0.0.1:8000/.
 
 ## **API Implementation**
 
-`POST /weather`
+**`POST /weather`**
 
 - Request Body:
 
@@ -78,7 +78,7 @@ You should now be able to access the application at http://127.0.0.1:8000/.
 - 201 Created on success.
 - 400 Bad Request on validation error.
 
-`GET /weather/{city}`
+**`GET /weather/{city}`**
 
 - Response:
 
