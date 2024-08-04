@@ -27,21 +27,25 @@ Create a basic weather API using Python that interacts with a SQL database to st
 - Use any HTTP server or API framework of your choice (Flask, aiohttp, FastAPI, LiteStar, or Django REST framework).
 - Use SQLite for the database.
 
-Django Rest Framework App
-Overview
+# **Django Rest Framework App
+
+## **Overview**
+
 This project is a Django-based application utilizing Django Rest Framework (DRF) to provide a robust API for various functionalities. This README file will guide you through the setup process.
 
-Prerequisites
-Python 3.x
-Django 3.x or later
-Django Rest Framework (DRF) 3.x or later
-PostgreSQL or any other preferred database
-Installation
+## **rerequisites**
+
+- `Python 3.x`
+- `Django 3.x or later`
+- `Django Rest Framework (DRF) 3.x or later`
+- `PostgreSQL or any other preferred database`
+
+
+## **Installation**
 Clone the Repository
 
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
+
+git clone https://github.com/GbolahanAlaba/sokosq-technical-assessment
 cd your-repo-name
 Create a Virtual Environment
 
