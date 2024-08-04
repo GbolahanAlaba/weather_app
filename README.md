@@ -25,11 +25,11 @@ It's recommended to use a virtual environment to manage dependencies:
 
 ## **Create Virtual Environment**
 
-Run `python -m venv venv`
+
+`python -m venv venv`
 
 ## **Activate Virtual Environment**
 
-Run
 source `venv/bin/activate`  # On Windows use `venv\Scripts\activate`
 
 ## **Install Dependencies**
