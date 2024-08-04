@@ -18,12 +18,13 @@ Clone the Repository
 
 
 git clone https://github.com/GbolahanAlaba/sokosq-technical-assessment
-cd your-repo-name
-Create a Virtual Environment
 
-It's recommended to use a virtual environment to manage dependencies:
+cd sokosq-technical-assessment
+
 
 ## **Create Virtual Environment**
+
+It's recommended to use a virtual environment to manage dependencies:
 
 
 `python -m venv venv`
