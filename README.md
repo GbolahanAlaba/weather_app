@@ -64,7 +64,7 @@ You should now be able to access the application at http://127.0.0.1:8000/.
 
 ## **API Implementation**
 
-### POST /weather
+#### POST /weather
 
 - **Request Body**:
 
@@ -78,11 +78,11 @@ You should now be able to access the application at http://127.0.0.1:8000/.
 
 - **Response**:
 
-- 201 Created on success.
-- 400 Bad Request on validation error.
+`201 Created` on success.
+`400 Bad Request` on validation error.
 
 
-### GET /weather/{city}
+#### GET /weather/{city}
 
 - **Response**:
 
@@ -95,8 +95,8 @@ You should now be able to access the application at http://127.0.0.1:8000/.
   }
 
 
-- 200 OK with weather data on success.
-- 404 Not Found if no data is available for the city.
+`200 OK` with weather data on success.
+`404 Not Found` if no data is available for the city.
 
 ## **Testing**
 Run a tests to ensure the API endpoints work as expected.
