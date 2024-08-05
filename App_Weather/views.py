@@ -21,29 +21,6 @@ def handle_exceptions(func):
             return response
     return wrapper
 
-class WeatherViewSet(viewsets.ViewSet):
-    queryset = Weather.objects.all()
-    serializer_class = WeatherSerializer
-
-    @handle_exceptions
-    def create_city_weather(self, request, *args, **kwargs):
-
-        serializer = self.serializer_class(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        serializer.save()
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
-    
-
-    @handle_exceptions
-    def view_city_weather(self, request, city, *args, **kwargs):
-
-        obj = Weather.objects.filter(city=city).first()
-
-        if not obj:
-            return Response({"status": "failed", "message": "City not found"}, status=status.HTTP_404_NOT_FOUND)
-        else:
-            serializer = self.serializer_class(obj)
-            return Response(serializer.data, status=status.HTTP_200_OK)
        
 class WeatherViewSet(viewsets.ModelViewSet):
     queryset = Weather.objects.all()
