@@ -10,8 +10,8 @@ from .views import WeatherViewSet
 class WeatherViewSetTestCase(APITestCase):
     def setUp(self):
         self.client = APIClient()
-        self.create_weather_url = reverse('weather')
-        self.city_weather_url = lambda city: reverse('weather', kwargs={'city': city})
+        self.create_weather_url = reverse('weather-create')
+        self.city_weather_url = lambda city: reverse('weather-detail', kwargs={'city': city})
         
         self.valid_payload = {
             'city': 'Lagos',
@@ -64,12 +64,12 @@ class WeatherViewSetTestCase(APITestCase):
 # TEST FOR URLS
 class WeatherURLTestCase(APITestCase):
     def test_create_weather_url(self):
-        url = reverse('weather')
-        self.assertEqual(resolve(url).func.__name__, WeatherViewSet.as_view({'post': 'create_city_weather'}).__name__)
+        url = reverse('weather-create')
+        self.assertEqual(resolve(url).func.__name__, WeatherViewSet.as_view({'post': 'create'}).__name__)
 
     def test_view_weather_url(self):
-        url = reverse('weather', kwargs={'city': 'Test City'})
-        self.assertEqual(resolve(url).func.__name__, WeatherViewSet.as_view({'get': 'view_city_weather'}).__name__)
+        url = reverse('weather-detail', kwargs={'city': 'Test City'})
+        self.assertEqual(resolve(url).func.__name__, WeatherViewSet.as_view({'get': 'retrieve_city'}).__name__)
 
 
 
