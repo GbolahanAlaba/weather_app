@@ -1,7 +1,7 @@
 from django.shortcuts import get_list_or_404
 from django.http import Http404
 
-def get_object_or_404_custom(klass, *args, **kwargs):
+def get_object_or_404_customized(klass, *args, **kwargs):
     """
     Retrieve an object or return a custom response if not found.
     

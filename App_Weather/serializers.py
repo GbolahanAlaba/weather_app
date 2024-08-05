@@ -6,4 +6,4 @@ class WeatherSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Weather
-        fields = ['id', 'city', 'date', 'temperature', 'description']
+        fields = ['city', 'date', 'temperature', 'description']
