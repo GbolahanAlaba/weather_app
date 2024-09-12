@@ -17,7 +17,7 @@ This project is a Django-based application utilizing Django Rest Framework (DRF)
 Clone the Repository
 
 
-git clone https://github.com/GbolahanAlaba/sokosq-technical-assessment
+git clone https://github.com/GbolahanAlaba/weather_app
 
 cd sokosq-technical-assessment
 
